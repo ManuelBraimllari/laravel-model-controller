@@ -8,6 +8,6 @@ class PageController extends Controller
 {
     public function welcome() {
         $movies = Movie::all();
-       return view('movie', compact('movies'));
+       return view('welcome', compact('movies'));
    }
 }
