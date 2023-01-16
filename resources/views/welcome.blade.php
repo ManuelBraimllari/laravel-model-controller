@@ -8,9 +8,7 @@
 </head>
 <body>
     <ul>
-    @foreach ($movies as $items)
-            <li>{{ $items->id }} - {{ $items->title }} - {{ $items->original_title }} - {{ $items->nationality }} - {{ $items->date }}- {{ $items->vote }}</li>
-        @endforeach
+        @foreach()
     </ul>
 </body>
 </html>
